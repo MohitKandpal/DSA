@@ -5,6 +5,8 @@
  */
 package com.dsa;
 
+import com.dsa.structures.TreeNode;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -42,22 +44,6 @@ public class SerializeDeserializeBinaryTree {
         root.left = deserializeUtil(queue);
         root.right = deserializeUtil(queue);
         return root;
-    }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    public TreeNode(int val) {
-        this.val = val;
-    }
-
-    public TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
     }
 }
 

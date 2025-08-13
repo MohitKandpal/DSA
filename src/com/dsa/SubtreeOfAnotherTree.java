@@ -4,6 +4,8 @@
  */
 package com.dsa;
 
+import com.dsa.structures.TreeNode;
+
 public class SubtreeOfAnotherTree {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(3);

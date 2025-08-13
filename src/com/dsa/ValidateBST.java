@@ -7,6 +7,8 @@
  */
 package com.dsa;
 
+import com.dsa.structures.TreeNode;
+
 public class ValidateBST {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(2);

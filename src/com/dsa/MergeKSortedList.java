@@ -1,5 +1,7 @@
 package com.dsa;
 
+import com.dsa.structures.LLNode;
+
 import java.util.PriorityQueue;
 
 public class MergeKSortedList {

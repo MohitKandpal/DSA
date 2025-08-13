@@ -5,6 +5,8 @@
  */
 package com.dsa;
 
+import com.dsa.structures.LLNode;
+
 public class MergeTwoSortedList {
     public static void main(String[] args) {
         LLNode head = new LLNode(1);
